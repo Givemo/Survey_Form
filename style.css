@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(0,0,255, 0.8);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-family:Abel;
+    font-size: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYXLx9vGFGPVUdyLhx6rqRYdcf4P55Pe3QbW85R3IwLarScB_F);
+    background-blend-mode: multiply;
+    background-size: cover;
+    }
+  
+  h1{
+    font-size: 3rem;
+  }
+  
+  #survey-form {
+    margin: 30px;
+    background-color:rgb(0,0,20);
+    border: 1px solid black;
+    opacity: 0.9;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1em;
+  }
+  
+  #survey-form label {
+    margin: 5%;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .form-group{
+    padding:1em 0 1em 0;
+    width: 100%;
+  }
+  
+  input[type="radio"]{
+  float:left;
+  }
+  
+  .form-control{
+    width: 80%;
+  }
+  
+  #text-area{
+    width: 80%;
+    height: 100px
+  }
+  
+  #submit{
+    width: 80%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    transition: all .2s ease-in-out;
+    }
+  
+  #submit:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 350px) {
+    #survey-form {
+      font-size: 0.8rem;
+      padding-left:0;
+      }
+    
+    h1{
+      font-size:2rem;
+    }
+    
+    input{
+      font-size:0.5rem;
+    }
+    }
+  
